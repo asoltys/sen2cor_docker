@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker-compose -f sen2cor.yml run l2a  "$@"
+docker-compose -f /home/HATCON.local/jsuwala/sen2cor_docker/sen2cor.yml run l2a  "$@"
 echo 'done'
